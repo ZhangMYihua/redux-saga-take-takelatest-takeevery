@@ -4,13 +4,18 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-redux": "7.0.3",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-saga": "1.0.2",
+    "styled-components": "4.2.0"
   },
   "devDependencies": {
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=4000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
