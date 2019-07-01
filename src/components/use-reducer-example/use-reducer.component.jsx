@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import Card from '../card/card.component';
 
-const UseEffectExample = () => {
+const UseReducerExample = () => {
   const [user, setUser] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -40,4 +40,4 @@ const UseEffectExample = () => {
   );
 };
 
-export default UseEffectExample;
+export default UseReducerExample;
